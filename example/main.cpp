@@ -45,7 +45,9 @@ float sq(float x)
 }
 int main()
 {    
-     float x=3, y=2;                
+     float x, y;
+     cin >> x;
+     cin >> y;
      cout << sum( x, y ) << endl;   
      cout << sub( x, y ) << endl;    
      cout << mult( x, y ) << endl;    
