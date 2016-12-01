@@ -12,7 +12,7 @@ int main()
      cout << sum( x, y ) << endl;   
      cout << sub( x, y ) << endl;    
      cout << mult( x, y ) << endl;    
-     float *s=dev(x, y);    
+     float *s=dev( x, y );    
      if (s)        
          cout << *s << endl;    
      else        
